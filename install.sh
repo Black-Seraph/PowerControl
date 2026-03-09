@@ -11,10 +11,10 @@ sudo rm -rf $HOME/homebrew/plugins/PowerControl
 
 VERSION=${VERSION_TAG:-"LATEST"}
 
-github_api_url='https://api.github.com/repos/aarron-lee/PowerControl/releases/latest'
+github_api_url='https://api.github.com/repos/Black-Seraph/PowerControl/releases/latest'
 
 if [ $VERSION != "LATEST" ] ; then
-  github_api_url="https://api.github.com/repos/aarron-lee/PowerControl/releases/${VERSION}"
+  github_api_url="https://api.github.com/repos/Black-Seraph/PowerControl/releases/${VERSION}"
 fi
 
 package="PowerControl"
