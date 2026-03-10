@@ -7,31 +7,7 @@ Powercontrol fork with fan controls only
 # Quick Install
 
 ```
-curl -L https://github.com/aarron-lee/PowerControl/raw/main/install.sh | sh
-```
-
-You can install earlier versions via the following command:
-
-```bash
-curl -L https://github.com/aarron-lee/PowerControl/raw/main/install.sh | VERSION_TAG=v2.7.1 sh
-```
-
-# Desktop App
-
-There is also an experimental [Desktop app](https://github.com/aarron-lee/PowerControl-Electron), which has separate install instructions.
-
-The Desktop app is currently outdated and uses PowerControl version 2.1.0, and will be updated when possible to use the latest
-
-See the desktop app readme for instructions.
-
-# Known Issues
-
-CachyOS might require you to separately install additional python dependencies.
-
-Check the logs for the missing dependencies, you can see logs via:
-
-```bash
-cat $HOME/homebrew/logs/PowerControl/*
+curl -L https://github.com/Black-Seraph/PowerControl/raw/main/install.sh | sh
 ```
 
 # Disclaimer
